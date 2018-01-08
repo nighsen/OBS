@@ -17,7 +17,9 @@
 ********************************************************************************/
 
 
+
 #include "Main.h"
+#include "D3D10System.h"
 
 //extern "C" _declspec(dllexport) DWORD NvOptimusEnablement = 0x00000000;
 

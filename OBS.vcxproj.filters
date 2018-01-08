@@ -213,6 +213,18 @@
     <ClInclude Include="Source\DataPacketHelpers.h">
       <Filter>Headers</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXCommon.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OBSDefs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OBSUtil.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="cursor1.cur">

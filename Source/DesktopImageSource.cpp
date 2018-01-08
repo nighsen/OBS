@@ -19,7 +19,7 @@
 
 #include "Main.h"
 #include <dwmapi.h>
-
+#include "WindowStuff.h"
 
 #define NUM_CAPTURE_TEXTURES 2
 

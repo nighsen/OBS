@@ -27,7 +27,8 @@
 
 #include <memory>
 #include <vector>
-
+#include "Updater.h"
+#include "HTTPClient.h"
 
 //hello, you've come into the file I hate the most.
 

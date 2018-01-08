@@ -17,7 +17,9 @@
 ********************************************************************************/
 
 
-#include "Main.h"
+#include "Common.h"
+#include "OBSApi.h"
+#include "D3D10System.h"
 
 void D3D10Shader::LoadDefaults()
 {

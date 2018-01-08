@@ -17,8 +17,10 @@
 ********************************************************************************/
 
 
-#include "Main.h"
+#include "Common.h"
+#include "OBSApi.h"
 
+#include "D3D10System.h"
 
 VertexBuffer* D3D10VertexBuffer::CreateVertexBuffer(VBData *vbData, BOOL bStatic)
 {

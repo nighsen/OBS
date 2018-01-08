@@ -18,7 +18,7 @@
 
 
 #pragma once
-
+#include "CodeTokenizer.h"
 
 class D3D10VertexShader;
 

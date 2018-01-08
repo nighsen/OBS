@@ -16,8 +16,8 @@
  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
 ********************************************************************************/
 
-#include "Main.h"
-
+#include "Common.h"
+#include "OBSApi.h"
 
 void Convert444toI420(LPBYTE input, int width, int pitch, int height, int startY, int endY, LPBYTE *output)
 {

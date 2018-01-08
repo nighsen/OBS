@@ -18,7 +18,7 @@
 
 
 #include "Main.h"
-
+#include "D3D10System.h"
 #include <inttypes.h>
 #include "mfxstructures.h"
 extern "C"

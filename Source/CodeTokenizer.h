@@ -18,7 +18,8 @@
 
 
 #pragma once
-
+#include "Common.h"
+#include "OBSApi.h"
 
 //this is a stripped down version of one of my compiler classes in my game engine
 

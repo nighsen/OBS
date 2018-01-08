@@ -18,7 +18,7 @@
 
 
 #include "Main.h"
-
+#include "OBSUtil.h"
 #include <Mmdeviceapi.h>
 #include <Audioclient.h>
 

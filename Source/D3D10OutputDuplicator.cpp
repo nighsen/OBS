@@ -17,8 +17,9 @@
 ********************************************************************************/
 
 
-#include "Main.h"
-
+#include "Common.h"
+#include "OBSApi.h"
+#include "D3D10System.h"
 
 #define DXGI_ERROR_ACCESS_LOST      _HRESULT_TYPEDEF_(0x887A0026L)
 #define DXGI_ERROR_WAIT_TIMEOUT     _HRESULT_TYPEDEF_(0x887A0027L)

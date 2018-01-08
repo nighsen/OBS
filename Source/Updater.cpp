@@ -22,6 +22,7 @@
 #include <winhttp.h>
 #include <Wincrypt.h>
 #include <shellapi.h>
+#include "HTTPClient.h"
 
 HCRYPTPROV hProvider;
 

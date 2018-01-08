@@ -18,6 +18,7 @@
 
 
 #include "Main.h"
+#include "D3D10System.h"
 #include <intrin.h>
 
 void SetupSceneCollection(CTSTR scenecollection);

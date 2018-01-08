@@ -19,7 +19,7 @@
 
 #include "Main.h"
 
-
+#include "D3D10System.h"
 
 #define NUMCLOSINGTOKENS 29
 

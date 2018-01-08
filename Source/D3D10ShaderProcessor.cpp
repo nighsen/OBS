@@ -17,8 +17,9 @@
 ********************************************************************************/
 
 
-#include "Main.h"
-
+#include "Common.h"
+#include "OBSApi.h"
+#include "D3D10System.h"
 
 //another stripped down code processor from my game engine
 

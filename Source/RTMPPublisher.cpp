@@ -20,6 +20,7 @@
 #include "Main.h"
 #include "RTMPStuff.h"
 #include "RTMPPublisher.h"
+#include "HTTPClient.h"
 
 #define MAX_BUFFERED_PACKETS 10
 

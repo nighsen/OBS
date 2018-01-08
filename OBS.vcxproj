@@ -328,15 +328,19 @@
   <ItemGroup>
     <ClInclude Include="Source\BitmapImage.h" />
     <ClInclude Include="Source\CodeTokenizer.h" />
+    <ClInclude Include="Source\Common.h" />
     <ClInclude Include="Source\CrashDumpHandler.h" />
     <ClInclude Include="Source\D3D10System.h" />
     <ClInclude Include="Source\DataPacketHelpers.h" />
+    <ClInclude Include="Source\DXCommon.h" />
     <ClInclude Include="Source\HTTPClient.h" />
     <ClInclude Include="Source\libnsgif.h" />
     <ClInclude Include="Source\LogUploader.h" />
     <ClInclude Include="Source\Main.h" />
     <ClInclude Include="Source\OBS.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\OBSDefs.h" />
+    <ClInclude Include="Source\OBSUtil.h" />
     <ClInclude Include="Source\RTMPPublisher.h" />
     <ClInclude Include="Source\RTMPStuff.h" />
     <ClInclude Include="Source\Settings.h" />
