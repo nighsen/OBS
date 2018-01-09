@@ -107,7 +107,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>OBSApi;extras;libmfx/include/msdk/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>OBSCore;OBSApi;extras;libmfx/include/msdk/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;$(OBS_VERSION_SUFFIX);$(DynamicDefines);_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>false</ExceptionHandling>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -272,11 +272,9 @@
   <ItemGroup>
     <ClCompile Include="Source\API.cpp" />
     <ClCompile Include="Source\BandwidthAnalysis.cpp" />
-    <ClCompile Include="Source\BitmapImage.cpp" />
     <ClCompile Include="Source\BitmapImageSource.cpp" />
     <ClCompile Include="Source\BitmapTransitionSource.cpp" />
     <ClCompile Include="Source\BlankAudioPlayback.cpp" />
-    <ClCompile Include="Source\CodeTokenizer.cpp" />
     <ClCompile Include="Source\CrashDumpHandler.cpp" />
     <ClCompile Include="Source\D3D10OutputDuplicator.cpp" />
     <ClCompile Include="Source\D3D10Shader.cpp" />
@@ -295,10 +293,8 @@
     <ClCompile Include="Source\GetAudioDevices.cpp" />
     <ClCompile Include="Source\GlobalSource.cpp" />
     <ClCompile Include="Source\HTTPClient.cpp" />
-    <ClCompile Include="Source\ImageProcessing.cpp" />
     <ClCompile Include="Source\InstallService.cpp" />
     <ClCompile Include="Source\ReplayBuffer.cpp" />
-    <ClCompile Include="Source\libnsgif.c" />
     <ClCompile Include="Source\LogUploader.cpp" />
     <ClCompile Include="Source\Main.cpp" />
     <ClCompile Include="Source\MMDeviceAudioSource.cpp" />
@@ -326,15 +322,12 @@
     <ClCompile Include="Source\WindowStuff.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\BitmapImage.h" />
-    <ClInclude Include="Source\CodeTokenizer.h" />
     <ClInclude Include="Source\Common.h" />
     <ClInclude Include="Source\CrashDumpHandler.h" />
     <ClInclude Include="Source\D3D10System.h" />
     <ClInclude Include="Source\DataPacketHelpers.h" />
     <ClInclude Include="Source\DXCommon.h" />
     <ClInclude Include="Source\HTTPClient.h" />
-    <ClInclude Include="Source\libnsgif.h" />
     <ClInclude Include="Source\LogUploader.h" />
     <ClInclude Include="Source\Main.h" />
     <ClInclude Include="Source\OBS.h" />
@@ -369,6 +362,16 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OBS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="OBSCore\OBSCore.vcxproj">
+      <Project>{030fa923-b515-4510-aca7-b8eabe83f5a2}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

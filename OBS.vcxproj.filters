@@ -16,9 +16,6 @@
     <ClCompile Include="Source\BitmapTransitionSource.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Source\CodeTokenizer.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Source\CrashDumpHandler.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -56,9 +53,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Source\HTTPClient.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ImageProcessing.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Source\Main.cpp">
@@ -103,9 +97,6 @@
     <ClCompile Include="Source\Updater.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Source\libnsgif.c">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Settings.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -142,9 +133,6 @@
     <ClCompile Include="Source\Encoder_NVENC.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Source\BitmapImage.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Source\LogUploader.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -171,13 +159,7 @@
     <ClInclude Include="Source\CrashDumpHandler.h">
       <Filter>Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Source\CodeTokenizer.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
     <ClInclude Include="Source\HTTPClient.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\libnsgif.h">
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Source\Main.h">
@@ -202,9 +184,6 @@
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Source\Settings.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\BitmapImage.h">
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Source\LogUploader.h">

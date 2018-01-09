@@ -18,6 +18,8 @@
 
 
 #include "Main.h"
+
+#include "OBSApi.h"
 #include <time.h>
 #include <Shlobj.h>
 
